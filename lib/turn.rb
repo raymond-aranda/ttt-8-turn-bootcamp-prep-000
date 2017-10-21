@@ -19,5 +19,5 @@ def position_taken?(board, index)
   board[index] != " "
 end
 
-def move
+def move(board, index, character = "X")
 end
