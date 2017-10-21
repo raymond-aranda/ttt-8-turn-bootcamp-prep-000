@@ -30,9 +30,10 @@ def turn(board)
   #convert input to index
   input = input_to_index(input)
   #if index is valid
-  if valid_move?(board, input)
+  if valid_move?(board, index)
   #  make the move for input
-    move(board, input)
+    move(board, index)
+    display_board(board)
   #else
   else
   #  ask for input again until you get a valid input
